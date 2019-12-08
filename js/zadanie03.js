@@ -1,6 +1,6 @@
 function bigestSumOfTwoElements(arr){
     let arraySum = 0;
-    if(arr.length == 1){
+    if(arr.length === 1){
         arraySum = arr[0];
     }
     else if (arr.length > 1){
